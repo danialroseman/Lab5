@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Book Details</title>
+</head>
+<body>
+    <script>
+        // Your JSON data
+        var jsonData = {
+            "books": [
+                {"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "publication_year": "1925", "genres": ["Fiction", "Classics"]},
+                {"title": "To Kill a Mockingbird", "author": "Harper Lee", "publication_year": "1960", "genres": ["Fiction", "Coming-of-Age"]}
+            ]
+        };
+
+        // Displaying details in the console
+        console.log("The title of the first book:", jsonData.books[0].title);
+        console.log("Author of the first book:", jsonData.books[0].author);
+        console.log("Year Published of the first book:", jsonData.books[0].publication_year);
+        console.log("Genres of the first book:", jsonData.books[0].genres);
+
+        console.log("The title of the second book:", jsonData.books[1].title);
+        console.log("Author of the second book:", jsonData.books[1].author);
+        console.log("Year Published of the second book:", jsonData.books[1].publication_year);
+        console.log("Genres of the second book:", jsonData.books[1].genres);
+        
+    </script>
+</body>
+</html>

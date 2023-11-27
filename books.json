@@ -1,0 +1,6 @@
+{
+    "books":[
+        {"title":"The Great Gatsby","author":"F. Scott Fitzgerald","publication_year":"1925","genres":["Fiction","Classics"]},
+        {"title":"To Kill a Mockingbird","author":"Harper Lee","publication_year":"1960","genres":["Fiction", "Coming-of-Age"]}
+    ]
+}
